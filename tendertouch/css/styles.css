@@ -5,16 +5,32 @@ body{
     color:var(--text);
 
 }
-
+@import url("https://use.typekit.net/xjj7uou.css");
 :root{
     font-size: 0.5vw;
-    font-family: "new-science", sans-serif;
+    font-family: "apertura", sans-serif;;
     --text: #121212;
     --bckgrnd: #f2ede4;
     --primary: #f2bfbb;
     --secondary: #d99c9c;
     --footer: #d9c8bf;
 
+}
+
+.extra-light {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 750;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .underline{
