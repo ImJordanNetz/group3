@@ -36,12 +36,14 @@ body{
 .underline{
     width: 0;
     height: 0.3vh;
+    margin: auto;
     background-color: var(--text);
     transition: 0.3s ease-in-out;
 }
 
 .nav-item:has(.nav-text:hover) .underline{
     width: 100%;
+    color: var(--text);
 }
 
 .nav-text{
@@ -54,6 +56,7 @@ nav{
     height: 10vh;
     display: grid;
     grid-template-columns: 65% 10% 25%;
+    color: var(--text);
 }
 
 nav .nav-buckets{
@@ -72,5 +75,9 @@ nav .nav-buckets{
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: var(--text);
+}
+
+a:hover{
+    color: var(--text);
 }
