@@ -1,0 +1,27 @@
+body{
+    background-color: #d9e2eb;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    font-size: 0.5vw;
+    font-family: "new-science", sans-serif;
+}
+
+.underline{
+    width: 0;
+    height: 0.3vh;
+    background-color: #121212;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item:has(.nav-text:hover) .underline{
+    width: 100%;
+}
+
+.nav-text{
+    margin-top: 4rem;
+
+}
