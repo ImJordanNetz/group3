@@ -1,20 +1,26 @@
 body{
-    background-color: #d9e2eb;
+    background-color: var(--bckgrnd);
     margin: 0;
     padding: 0;
+    color:var(--text);
 
 }
 
 :root{
     font-size: 0.5vw;
     font-family: "new-science", sans-serif;
-    
+    --text: #121212;
+    --bckgrnd: #f2ede4;
+    --primary: #f2bfbb;
+    --secondary: #d99c9c;
+    --footer: #d9c8bf;
+
 }
 
 .underline{
     width: 0;
     height: 0.3vh;
-    background-color: #121212;
+    background-color: var(--text);
     transition: 0.3s ease-in-out;
 }
 
