@@ -13,6 +13,36 @@
     <link rel="stylesheet" href="https://use.typekit.net/xjj7uou.css">
     <title>Our Practice</title>
     <link rel="icon" href="images/logo.final.png" type="image/x-icon">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'col2kye',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 </head>
 
 <body>
@@ -55,75 +85,121 @@
         </div>
     </nav>
 
-    <!--WELCOME TEXT
-Tender Touch Small Animal Hospital is a privately owned full-service, integrative veterinary hospital in Redmond , WA, offering the finest western and complementary veterinary services for dogs and cats.
+    <h1 class="outline-text">TENDER TOUCH</h1>
+    <h2 class="outline-text">SMALL ANIMAL HOSPITAL</h2>
 
-Our leading-edge veterinary care will provide the foundation that will help your pets have a happy, healthy life.
+    <div class="grid-container">
 
-Our team is committed to a life-long partnership with your pet, combined with professional & technical expertise for all stages of your pet’s life from puppy/kitten to adulthood through senior & geriatric years.
-​-->
+        <div class="grid-item carousel">
+            <div id="carousel-controls" class="carousel slide" data-ride="carousel">
 
-<!--TESTIMONIALS
-Dr S has helped us with all three of our dogs and is always patient, kind and considerate of both our pets and us!! She has helped us through some difficult and trying times- compassionately helping us through the passing of two of our fur babies. CINDY
+                <div class="carousel-inner ">
+                    <div class="carousel-item active ">
+                        <img src="images/photo1.jpg " class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/photo3.jpg " class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/photo4.jpg " class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/photo5.jpg " class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/photo6.jpg " class="d-block w-100 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/photo7.jpg " class="d-block w-100 ">
+                    </div>
+                </div>
 
-Very friendly staff, knowledgable & clean environment. TRIPURAMALLU
+                <button class="carousel-control-prev" type="buttons" data-bs-target="#carousel-controls" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="buttons" data-bs-target="#carousel-controls" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
 
-The staff was patient and caring with my kitties and answered all my questions. CAROYLN
-
-Dr. Sadhanala and the entire staff of Tender Touch Small Animal Hospital are always wonderful, caring, friendly and professional. I am very grateful for the expert care I receive from Dr. Sadhanala for my pets. CLARE-->
-
-<footer>
-    <div class="footer">
-        <div class="officehours">
-            <h2 class="footer-header">Office Hours</h2>
-            <p class="footer-text">Mon, Tue, Thu, & Fri: 9:00am - 6:00pm<br>
-                Wed: 9:00am - 2:00pm<br>
-                Saturday: 9:00am - 5:00pm<br>
-                Sunday: Closed</p>
+            </div>
         </div>
 
-        <div class="intouch">
-            <h2 class="footer-header">Get In Touch</h2>
-            <p class="footer-text">8102 161st Ave NE Ste 190<br>
-                Redmond, WA-98052</p>
-            <p class="footer-text">Phone: (425) 658-7315<br>
-                Fax: (425) 658-7321</p>
-        </div>
-
-        <div class="partners">
-            <h2 class="footer-header">Our Partners In Care</h2>
-            <h3 class="footer-subheader">Petly</h3>
-            <h3 class="footer-subheader">CareCredit</h3>
-        </div>
-
-        <div class="footer-nav">
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="index.html">Our Practice</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="services.html">Services</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="care-guides.html">Care Guides</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="our-staff.html">Staff</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="contact-us.html">Contact Us</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="footer-nav-item medium">
-                <div class="nav-text"><a href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms" target="_blank">Pharmacy</a></div>
-                <div class="underline"></div>
-            </div>
+        <div class="grid-item welcome ">
+            <h2 style="font-size:40px; text-align: center;">Welcome!</h2>
+            <p>Tender Touch Small Animal Hospital is a privately owned full-service, integrative veterinary hospital in Redmond , WA, offering the finest western and complementary veterinary services for dogs and cats.<br>Our leading-edge veterinary care
+                will provide the foundation that will help your pets have a happy, healthy life. <br> Our team is committed to a life-long partnership with your pet, combined with professional & technical expertise for all stages of your pet’s life from
+                puppy/kitten to adulthood through senior & geriatric years.</p>
+            <a href="emergency.html " target="_blank "> <button class="emergency-home ">EMERGENCY</button>
+            </a>
+            <a href="contact-us.html " target="_blank "> <button class="schedule-home ">SCHEDULE</button>
+            </a>
         </div>
     </div>
-</footer>
+
+    <h2 class="sub-title ">Testimonials</h2>
+
+    <div class="grid-container2 ">
+        <div class="grid-item testimonial1 ">
+            <img src="images/quotation-mark.png " class="quote ">
+            <p class="testimonial ">Dr. S has helped us with all three of our dogs and is always patient, kind and considerate of both our pets and us!! She has helped us through some difficult and trying times- compassionately helping us through the passing of two of our fur
+                babies. <br> -CINDY</p>
+        </div>
+        <div class="grid-item testimonial2 ">
+            <img src="images/quotation-mark.png " class="quote ">
+            <p class="testimonial ">Very friendly staff, knowledgable & clean environment.<br>-TRIPURAMALLU</p>
+        </div>
+        <div class="grid-item testimonial3 ">
+            <img src="images/quotation-mark.png " class="quote ">
+            <p class="testimonial ">The staff was patient and caring with my kitties and answered all my questions.<br>-CAROYLN</p>
+        </div>
+        <div class="grid-item testimonial4 ">
+            <img src="images/quotation-mark.png " class="quote ">
+            <p class="testimonial ">Dr. Sadhanala and the entire staff of Tender Touch Small Animal Hospital are always wonderful, caring, friendly and professional. I am very grateful for the expert care I receive from Dr. Sadhanala for my pets.<br>-CLARE</p>
+        </div>
+    </div>
+    <footer>
+        <div class=" footer ">
+            <div class="officehours ">
+                <h2 class="footer-header ">Office Hours</h2>
+                <p class="footer-text ">Mon, Tue, Thu, & Fri: 9:00am - 6:00pm<br> Wed: 9:00am - 2:00pm<br> Saturday: 9:00am - 5:00pm<br> Sunday: Closed</p>
+            </div>
+
+            <div class="intouch ">
+                <h2 class="footer-header ">Get In Touch</h2>
+                <p class="footer-text ">8102 161st Ave NE Ste 190<br> Redmond, WA-98052</p>
+                <p class="footer-text ">Phone: (425) 658-7315<br> Fax: (425) 658-7321</p>
+            </div>
+
+            <div class="partners ">
+                <h2 class="footer-header ">Our Partners In Care</h2>
+                <h3 class="footer-subheader ">Petly</h3>
+                <h3 class="footer-subheader ">CareCredit</h3>
+            </div>
+
+            <div class="footer-nav ">
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="index.html ">Our Practice</a></div>
+                    <div class="underline "></div>
+                </div>
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="services.html ">Services</a></div>
+                    <div class="underline "></div>
+                </div>
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="care-guides.html ">Care Guides</a></div>
+                    <div class="underline "></div>
+                </div>
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="our-staff.html ">Staff</a></div>
+                    <div class="underline "></div>
+                </div>
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="contact-us.html ">Contact Us</a></div>
+                    <div class="underline "></div>
+                </div>
+                <div class="footer-nav-item medium ">
+                    <div class="nav-text "><a href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms " target="_blank ">Pharmacy</a></div>
+                    <div class="underline "></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
