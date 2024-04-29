@@ -102,72 +102,6 @@ h2.outline-text {
     width: 98%;
 }
 
-.footer {
-    width: 100%;
-    bottom: 0px;
-    left: 0px;
-    background-color: #d9c8bf;
-    padding: 50px 20px 40px 20px;
-    overflow: auto;
-}
-
-.officehours {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.intouch {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.partners {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.footer-header {
-    font-size: 28px;
-    font-weight: 700;
-    padding-bottom: 18px;
-}
-
-.footer-subheader {
-    font-size: 22px;
-    font-weight: 600;
-    padding: 8px;
-}
-
-.footer-text {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.footer-nav {
-    float: left;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.footer-nav-item {
-    font-size: 3rem;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    height: 100%;
-}
-
-.footer-nav-item:has(.nav-text:hover) .underline {
-    width: 100%;
-    color: var(--text);
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -249,7 +183,7 @@ h2.outline-text {
 }
 
 .schedule-home {
-    background-color: var(--footer);
+    background-color: var(--primary);
     border: none;
     color: var(--text);
     padding: 15px 32px;
@@ -262,7 +196,7 @@ h2.outline-text {
 }
 
 .emergency-home {
-    background-color: var(--footer);
+    background-color: var(--primary);
     border: none;
     color: var(--text);
     padding: 15px 32px;
@@ -274,8 +208,8 @@ h2.outline-text {
     left: 80%;
 }
 
-.schedule-contact {
-    background-color: var(--footer);
+.schedule {
+    background-color: var(--primary);
     border: none;
     color: var(--text);
     padding: 15px 32px;
@@ -287,8 +221,8 @@ h2.outline-text {
     left: 37%;
 }
 
-.emergency-contact {
-    background-color: var(--footer);
+.emergency {
+    background-color: var(--primary);
     border: none;
     color: var(--text);
     padding: 15px 32px;
@@ -298,6 +232,10 @@ h2.outline-text {
     position: absolute;
     top: 38%;
     left: 53%;
+}
+
+.schedule:hover, .schedule-home:hover, .emergency:hover, .emergency-home:hover {
+    background-color: var(--secondary);
 }
 
 .grid-container3 {
@@ -342,4 +280,70 @@ h2.outline-text {
 .streetview {
     height: 500px;
     width: 620px;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--footer);
+    padding: 50px 20px 40px 20px;
+    overflow: auto;
+}
+
+.officehours {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.intouch {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.partners {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.footer-header {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.footer-subheader {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer-nav-item {
+    font-size: 3rem;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 100%;
+}
+
+.footer-nav-item:has(.nav-text:hover) .underline {
+    width: 100%;
+    color: var(--text);
 }
