@@ -218,7 +218,7 @@ h2.outline-text {
     margin: 0;
     position: absolute;
     top: 38%;
-    left: 37%;
+    left: 34%;
 }
 
 .emergency {
@@ -234,7 +234,10 @@ h2.outline-text {
     left: 53%;
 }
 
-.schedule:hover, .schedule-home:hover, .emergency:hover, .emergency-home:hover {
+.schedule:hover,
+.schedule-home:hover,
+.emergency:hover,
+.emergency-home:hover {
     background-color: var(--secondary);
 }
 
