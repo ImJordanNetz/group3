@@ -227,6 +227,16 @@ h2.outline-text {
     text-align: center;
 }
 
+.sub-title-welcome {
+    font-family: "apertura", sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--text);
+    -webkit-text-stroke: 1px var(--footer);
+    text-align: center;
+}
+
 .quote {
     height: 50px;
     width: 50px;
