@@ -46,7 +46,20 @@ body {
     color: var(--text);
 }
 
+.center-child{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rounded-photo{
+    width: 60%;
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+}
+
 .button {
+    font-size: 20px;
     width: fit-content;
     padding: 7px 25px;
     background-color: var(--primary);
@@ -374,13 +387,20 @@ h2.outline-text {
     display: grid;
     box-sizing: border-box;
     padding: 5%;
-    grid-template-columns: 50% 50%
+    grid-template-columns: 50% 50%;
+    place-items: center;
 
 }
 
-.service-text-container {
+
+.service-text-container p{
     font-size: 16px;
 }
+
+.service-text-container h2{
+    font-size: 30px;
+}
+
 
 .footer-header {
     font-size: 28px;
