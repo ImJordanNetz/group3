@@ -186,11 +186,21 @@ h2.outline-text {
     font-size: 15px;
 }
 
-.sub-title {
+.sub-title-contact {
     font-family: "apertura", sans-serif;
-    margin: 40px 20px;
+    margin-top: 70px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
+    color: var(--text);
+    -webkit-text-stroke: 1px var(--footer);
+    text-align: center;
+}
+
+.sub-title-staff {
+    font-family: "apertura", sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 23px;
     color: var(--text);
     -webkit-text-stroke: 1px var(--footer);
     text-align: center;
@@ -303,6 +313,33 @@ h2.outline-text {
 .streetview {
     height: 500px;
     width: 605px;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-gap: 10px;
+}
+
+.dr {
+    grid-row: 2;
+    grid-column: 2 / span 1;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.owner-pic {
+    height: 350px;
+    width: 500px;
+}
+
+.description-owner {
+    grid-row: 2;
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .footer {
