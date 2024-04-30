@@ -46,6 +46,26 @@ body {
     color: var(--text);
 }
 
+.button {
+    width: fit-content;
+    padding: 7px 25px;
+    background-color: var(--primary);
+    border-radius: 7px;
+    border: 2px solid var(--secondary);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translate(-0px, -5px);
+    box-shadow: 0 5px 5px #cfa4a1;
+
+}
+
+
+
+.button:hover {
+    transform: translate(-0px, -0px);
+    box-shadow: none
+}
+
 nav {
     display: grid;
     grid-template-columns: 5% 50% 20% 25%;
@@ -310,6 +330,19 @@ h2.outline-text {
     float: left;
     width: 33%;
     text-align: center;
+}
+
+
+.service{
+    display: grid;
+    box-sizing: border-box;
+    padding: 5%;
+    grid-template-columns: 50% 50%
+
+}
+
+.service-text-container {
+    font-size: 16px;
 }
 
 .footer-header {
