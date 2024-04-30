@@ -17,6 +17,11 @@ body {
     --footer: #d9c8bf;
 }
 
+p {
+    font-family: "apertura", sans-serif;
+    text-align: center;
+}
+
 .extra-light {
     font-weight: 400;
 }
@@ -156,9 +161,7 @@ h2.outline-text {
     grid-row: 1;
     grid-column: 2/span1;
     font-size: 20px;
-    text-align: center;
     padding: 10px;
-    font-family: "apertura", sans-serif;
     color: text;
 }
 
@@ -194,8 +197,6 @@ h2.outline-text {
 }
 
 .testimonial {
-    font-family: "apertura", sans-serif;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -298,7 +299,6 @@ h2.outline-text {
     grid-row: 2;
     grid-column: 1 / span 1;
     padding: 10px;
-    text-align: center;
     font-size: 20px;
 }
 
@@ -311,9 +311,7 @@ h2.outline-text {
 .form {
     grid-row: 3;
     grid-column: 2/ span 1;
-    text-align: center;
     padding: 20px;
-    font-family: "apertura", sans-serif;
     color: text;
 }
 
@@ -351,8 +349,21 @@ h2.outline-text {
     grid-column: 1 / span 1;
     margin-top: 50px;
     margin-left: 40px;
-    text-align: center;
     font-size: 20px;
+}
+
+.line-separator {
+    background-color: lightgrey;
+    height: 2px;
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.carreers {
+    font-size: 20px;
+    padding: 15px;
 }
 
 .footer {
