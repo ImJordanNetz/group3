@@ -65,6 +65,7 @@ p {
     height: 30vw;
     border: 2px solid var(--secondary);
     border-radius: 1em;
+    object-fit: cover;
 }
 
 .active .underline {
