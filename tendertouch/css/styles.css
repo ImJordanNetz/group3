@@ -739,4 +739,13 @@ h2.outline-text {
         grid-column: 3/span 2;
         width: 95%;
     }
+    .description-owner {
+        grid-row: 1;
+        grid-column: 1/span 2;
+    }
+    .dr {
+        grid-row: 2;
+        grid-column: 1/span 2;
+        text-align: center;
+    }
 }
