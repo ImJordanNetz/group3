@@ -7,7 +7,7 @@ body {
 }
 
 @import url("https://use.typekit.net/xjj7uou.css");
-:root {
+ :root {
     font-size: 0.5vw;
     font-family: "apertura", sans-serif;
     ;
@@ -449,7 +449,7 @@ h2.outline-text {
 }
 
 #care-guide-container {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -481,7 +481,7 @@ h2.outline-text {
 #filterInput {
     height: 1.8em;
     padding: 1em;
-    font-size: 1.6em;
+    font-size: 2.8em;
     width: fit-content;
     background-color: var(--primary);
     border-radius: 1em;
@@ -507,7 +507,7 @@ h2.outline-text {
     padding: 1em;
     display: grid;
     place-items: center;
-    font-size: 1.6em;
+    font-size: 2.8em;
     display: inline-flex;
     width: fit-content;
     background-color: var(--primary);
@@ -528,12 +528,12 @@ h2.outline-text {
 }
 
 .care-guide-item h2 {
-    font-size: 3em;
+    font-size: 4em;
     width: fit-content;
 }
 
 .care-guide-item p {
-    font-size: 1.7em;
+    font-size: 3em;
     width: fit-content;
 }
 
@@ -570,7 +570,7 @@ h2.outline-text {
     justify-content: space-between;
 }
 
-.contact-us-info-wrapper p{
+.contact-us-info-wrapper p {
     font-size: 2.5em;
 }
 
@@ -581,28 +581,28 @@ h2.outline-text {
 
 #contactForm label {
     font-size: 2.5em;
-    display: block; 
-    margin-bottom: 5px; 
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
 #contactForm input,
 #contactForm textarea {
-    width: 100%; 
-    padding: 8px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    box-sizing: border-box; 
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 #contactForm button {
     font-size: 2em;
-    background-color: var(--primary); 
+    background-color: var(--primary);
     color: rgb(0, 0, 0);
-    padding: 10px 15px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transform: translate(-0px, -5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 5px #cfa4a1;
@@ -820,7 +820,7 @@ form#contactForm button:hover {
         margin-left: 4em;
     }
     .sub-title-welcome {
-        font-size: 4em;
+        font-size: 10em;
     }
     .welcometext {
         font-size: 1.5em;
@@ -866,8 +866,7 @@ form#contactForm button:hover {
         grid-column: 1/span 2;
         text-align: center;
     }
-
-    .contact-us-wrapper{
+    .contact-us-wrapper {
         margin-top: 2vh;
         display: flex;
         flex-direction: column;
@@ -880,14 +879,12 @@ form#contactForm button:hover {
         display: flex;
         flex-direction: column;
     }
-
-    .contact-us-wrapper p{
+    .contact-us-wrapper p {
         font-size: 4em;
         display: flex;
         flex-direction: column;
     }
-
-    #contactForm button{
+    #contactForm button {
         margin: 2vh 0;
         font-size: 4em;
     }
@@ -910,8 +907,20 @@ form#contactForm button:hover {
     }
     .home_button_box {
         display: grid;
-        grid-template-columns: 33% 12% 10% 12% 33%;
+        grid-template-columns: 27% 18% 10% 18% 27%;
         margin-top: 2vw;
         margin-bottom: 2vw;
+    }
+    .care-guide-item {
+        padding: 2em;
+        width: 100%;
+        border-radius: 2em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 1em 6em 0px;
+        background-color: var(--bckgrnd);
+        margin: 0.5vw 0;
+        font-size: 2em;
+    }
+    .contact-text {
+        text-align: center;
     }
 }
