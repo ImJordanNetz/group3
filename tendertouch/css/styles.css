@@ -57,10 +57,12 @@ p {
 .center-child {
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .rounded-photo {
-    width: 70%;
+    width: 30vw;
+    height: 30vw;
     border: 2px solid var(--secondary);
     border-radius: 1em;
 }
@@ -75,11 +77,11 @@ p {
     width: fit-content;
     padding: 0.3em 1.3em;
     background-color: var(--primary);
-    border-radius: 7px;
+    border-radius: 1em;
     cursor: pointer;
-    transition: transorm 0.3s ease, box-shadow 0.3s ease;
-    transform: translate(-0px, -5px);
-    box-shadow: 0 5px 5px #cfa4a1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translate(-0em, -0.5em);
+    box-shadow: 0 0.5em 0.5em #cfa4a1;
 }
 
 .button:hover {
@@ -119,17 +121,17 @@ h1.outline-text {
     font-family: "apertura", sans-serif;
     color: var(--text);
     font-weight: bold;
-    -webkit-text-stroke: 2px var(--footer);
+    -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
-    font-size: 8em;
+    font-size: 10em;
 }
 
 h2.outline-text {
     font-family: "apertura", sans-serif;
     color: var(--text);
     font-weight: bold;
-    font-size: 6em;
-    -webkit-text-stroke: 2px var(--footer);
+    font-size: 5em;
+    -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
 }
 
@@ -143,10 +145,10 @@ h2.outline-text {
 }
 
 .grid-container {
-    margin-top: 6vh;
+    margin-top: 3vw;
     display: grid;
     grid-template-columns: 45% 55%;
-    grid-gap: 10px;
+    grid-gap: 0.625em;
     place-items: center;
 }
 
@@ -154,7 +156,7 @@ h2.outline-text {
     grid-row: 1;
     grid-column: 1/span 1;
     width: 70em;
-    box-shadow: rgba(100, 100, 111, 0.45) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.45) 0em 0.438em 1.813em 0em;
 }
 
 .carousel-item {
@@ -185,41 +187,41 @@ h2.outline-text {
 .grid-container2 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin-top: 15px;
-    grid-gap: 5px;
+    margin-top: 9.38emx;
+    grid-gap: 0.313em;
     place-items: center;
 }
 
 .testimonial1 {
     grid-row: 3;
     grid-column: 1/span 1;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .testimonial2 {
     grid-row: 3;
     grid-column: 2/span 1;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .testimonial3 {
     grid-row: 3;
     grid-column: 3/span 1;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .testimonial4 {
     grid-row: 3;
     grid-column: 4/span 1;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .testimonial {
-    padding: 0 10px;
+    padding: 0 0.625em;
     width: 80%;
-    font-size: 15px;
-    border-radius: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 2em;
+    border-radius: 1.25em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0em 0.438em 1.813em 0em;
     background-color: var(--bckgrnd);
 }
 
@@ -237,13 +239,22 @@ h2.outline-text {
     text-align: center;
 }
 
-.sub-title-staff {
+.sub-title-staff1 {
     font-family: "apertura", sans-serif;
-    margin-top: 30px;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 2em;
     color: var(--text);
-    -webkit-text-stroke: 1px var(--footer);
+    -webkit-text-stroke: 0.04em var(--footer);
+    text-align: center;
+}
+
+.sub-title-staff2 {
+    font-family: "apertura", sans-serif;
+    margin-top: 1.2em;
+    font-weight: bold;
+    font-size: 3em;
+    color: var(--text);
+    -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
 }
 
@@ -279,9 +290,9 @@ h2.outline-text {
 }
 
 .quote {
-    height: 50px;
-    width: 50px;
-    margin-left: 10px;
+    height: 3.125em;
+    width: 3.125em;
+    margin-left: 0.625em;
 }
 
 .schedule-home {
@@ -314,26 +325,20 @@ h2.outline-text {
     background-color: var(--primary);
     border: none;
     color: var(--text);
-    padding: 15px 32px;
+    padding: 1em 2em;
     font-size: 2.2em;
     cursor: pointer;
     margin: 0;
-    position: absolute;
-    top: 39%;
-    left: 34%;
 }
 
 .emergency {
     background-color: var(--primary);
     border: none;
     color: var(--text);
-    padding: 15px 32px;
+    padding: 1em 2em;
     font-size: 2.2em;
     cursor: pointer;
     margin: 0;
-    position: absolute;
-    top: 39%;
-    left: 53%;
     font-family: "apertura", sans-serif;
 }
 
@@ -383,41 +388,55 @@ h2.outline-text {
     display: grid;
     grid-template-columns: 55% 45%;
     grid-gap: 10px;
+    margin-top: 2vw;
 }
 
 .dr {
     grid-row: 2;
     grid-column: 2 / span 1;
-    margin-top: 95px;
-    margin-left: 40px;
+    margin-left: 7em;
 }
 
 .owner-pic {
-    height: 350px;
-    width: 500px;
+    height: 55em;
+    width: 80em;
 }
 
 .description-owner {
     grid-row: 2;
     grid-column: 1 / span 1;
-    margin-top: 80px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 2.5em;
+    font-size: 3em;
 }
 
 .line-separator {
     background-color: lightgrey;
-    height: 2px;
+    height: 0.3em;
     width: 90%;
     text-align: center;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin-top: 7em;
+    margin-left: 11em;
 }
 
 .carreers {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 1.75em;
+    padding: 1vw;
     text-align: center;
+}
+
+.button-box {
+    display: grid;
+    grid-template-columns: 31% 14% 10% 14% 31%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.button-anchor1 {
+    grid-column: 2;
+}
+
+.button-anchor2 {
+    grid-column: 4;
 }
 
 #care-guide-container {
@@ -426,16 +445,16 @@ h2.outline-text {
 }
 
 .care-guide-item {
-    padding: 10px;
+    padding: 2em;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 1em 6em 0px;
     background-color: var(--bckgrnd);
-    margin: 1vh 0;
+    margin: 0.5vw 0;
 }
 
 .top-care-guides {
-    margin-top: 7vh;
+    margin-top: 3vw;
     display: flex;
     justify-content: space-between;
 }
@@ -456,8 +475,8 @@ h2.outline-text {
     font-size: 1.6em;
     width: fit-content;
     background-color: var(--primary);
-    border-radius: 7px;
-    border: 2px solid var(--secondary);
+    border-radius: 1em;
+    border: 0.04em solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: none;
     outline: none;
@@ -483,7 +502,7 @@ h2.outline-text {
     display: inline-flex;
     width: fit-content;
     background-color: var(--primary);
-    border-radius: 7px;
+    border-radius: 1em;
     border: 2px solid var(--secondary);
     transition: background-color 0.3s ease;
     cursor: pointer;
@@ -507,14 +526,13 @@ h2.outline-text {
 .care-guide-item p {
     font-size: 1.7em;
     width: fit-content;
-    
 }
 
 #none-found {
     display: none;
 }
 
-#none-found h2{
+#none-found h2 {
     font-size: 3em;
 }
 
@@ -591,7 +609,7 @@ form#contactForm button:hover {
 
 
 .footer {
-    margin-top: 5vh;
+    margin-top: 1vw;
     width: 100%;
     bottom: 0px;
     left: 0px;
@@ -635,21 +653,24 @@ form#contactForm button:hover {
 }
 
 .service-right .service-text-container {
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-right: 5%;
     text-align: right;
 }
 
 .service-left .service-text-container {
-    padding-right: 20%;
+    padding-right: 10%;
+    padding-left: 5%;
     text-align: left;
 }
 
 .service-text-container p {
-    font-size: 2em;
+    font-size: 2.8em;
 }
 
 .service-text-container h2 {
-    font-size: 3.5em;
+    font-size: 4em;
+    font-weight: 600;
 }
 
 .emergency_box {
@@ -663,7 +684,7 @@ form#contactForm button:hover {
     width: 100%;
     color: var(--text);
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 1vw;
     font-weight: 600;
 }
 
@@ -674,17 +695,41 @@ form#contactForm button:hover {
     color: var(--text);
     text-align: center;
     line-height: 3.9vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.emergency_grid {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    float: left;
+    width: 100%;
+    margin-bottom: 4vw;
+}
+
+.afterhours {
+    grid-column: 1;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.emergency_image {
+    grid-column: 3;
+    text-align: center;
+}
+
+.emergency_image img {
+    height: 30vw;
+    width: 40vw;
 }
 
 .footer {
-    margin-top: 5vh;
+    margin-top: 2vw;
     width: 100%;
     bottom: 0px;
     left: 0px;
     background-color: var(--footer);
-    padding: 5vh 2vw 4vh 2vw;
+    padding: 4vw 2vw 3vw 2vw;
     overflow: auto;
 }
 
@@ -709,7 +754,7 @@ form#contactForm button:hover {
 .footer-header {
     font-size: 5rem;
     font-weight: 700;
-    padding-bottom: 2vh;
+    padding-bottom: 2vw;
 }
 
 .footer-subheader {
@@ -730,7 +775,7 @@ form#contactForm button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5vh;
+    padding-top: 3vw;
 }
 
 .footer-nav-item {
@@ -743,4 +788,49 @@ form#contactForm button:hover {
 .footer-nav-item:has(.nav-text:hover) .underline {
     width: 100%;
     color: var(--text);
+}
+
+@media (max-width:620px) {
+    .welcome {
+        grid-row: 2;
+        grid-column: 1/span 2;
+        margin-left: 4em;
+    }
+    .carousel {
+        grid-row: 1;
+        grid-column: 1/span 2;
+    }
+    .sub-title-testimonial {
+        margin-top: 2em;
+    }
+    .testimonial1 {
+        grid-row: 3;
+        grid-column: 1/span 4;
+        margin-top: 2em;
+    }
+    .testimonial2 {
+        grid-row: 4;
+        grid-column: 1/span 4;
+        margin-top: 2em;
+    }
+    .testimonial3 {
+        grid-row: 5;
+        grid-column: 1/span 4;
+        margin-top: 2em;
+    }
+    .testimonial4 {
+        grid-row: 6;
+        grid-column: 1/span 4;
+        margin-top: 2em;
+    }
+    .description-owner {
+        grid-row: 1;
+        grid-column: 1/span 2;
+        margin: 0 4vw;
+    }
+    .dr {
+        grid-row: 2;
+        grid-column: 1/span 2;
+        text-align: center;
+    }
 }
