@@ -514,6 +514,15 @@ h2.outline-text {
 .care-guide-item p {
     font-size: 1.7em;
     width: fit-content;
+    
+}
+
+#none-found {
+    display: none;
+}
+
+#none-found h2{
+    font-size: 3em;
 }
 
 .footer {
