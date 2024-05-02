@@ -49,9 +49,7 @@
                 <div class="underline"></div>
             </div>
             <div class="nav-item medium">
-                <div class="nav-text"><a
-                        href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms"
-                        target="_blank">Pharmacy</a></div>
+                <div class="nav-text"><a href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms" target="_blank">Pharmacy</a></div>
                 <div class="underline"></div>
             </div>
         </div>
@@ -61,23 +59,100 @@
         <h1 class="outline-text">TENDER TOUCH</h1>
         <h2 class="outline-text">SMALL ANIMAL HOSPITAL</h2>
 
-        <!--Allergy Testing
-The most common types of allergies in pets are flea allergy, food allergy, and a condition called atopy. Atopy is sometimes called atopic dermatitis or allergic inhalant dermatitis, and it occurs when allergens that are inhaled or that contact the skin cause an allergic reaction in the body. In dogs (and, less commonly, cats), this allergic reaction is focused largely in the skin. Animals with atopy become very itchy; the resultant scratching can lead to skin injuries and subsequent skin infections. Atopy is usually first noticed in dogs younger than 3 years of age, although older pets can also be affected. Unfortunately, some pets that develop atopy continue to have problems throughout their lives.  
-Bathing Your Dog
-Regular bathing can help keep your dog’s skin and haircoat healthy, and if you can teach your dog to enjoy being bathed, it can be another way to strengthen your relationship with your dog. The ASPCA recommends bathing your dog about every 3 months; however, certain breeds and dogs that spend a lot of time outside may need to be bathed more often. Some medical conditions may benefit from medicated shampoo products that your veterinarian can prescribe or recommend.
-Bringing a New Kitten Home
-Bringing a new kitten home is exciting. Your kitten must receive veterinary care before being introduced to other cats. Your kitten must be vaccinated against various diseases on a schedule, beginning at 2 to 3 months of age and should be spayed or neutered by 6 months of age. Proper nutrition is especially important for kittens, which need two to three times as many calories and nutrients as adult cats. Cats learn how to socialize with each other from their mother and littermates; therefore, if possible, kittens should remain with their mother and/or littermates until they are about 10 weeks old. Kittens that have human contact before they are 10 to 12 weeks old are more likely to interact well with people throughout their lives.
-Cat Litter
-​A variety of cat litters are available commercially, including litters made of clay, plastic, wheat, sawdust, newspaper pellets, and corn cobs. The choice depends on what matters most to you and your cat. You may have to try a few to see what you and your cat like. Most cats prefer unscented, scoopable litter because of its sandlike texture. Many owners prefer scoopable litters because they control odors and absorb liquid (clump) well, making it easy for owners to scoop out urine “balls.” This leaves the remaining litter dry and odor free.-->
 
+
+        <div id="care-guide-container">
+            <div class="top-care-guides">
+                <div class="top-care-guides-side">
+                    <input type="text" id="filterInput" placeholder="Find Care-Guides">
+                    <div class="care-guide-button" id="search-button" onclick="filterDivs()">Search</div>
+                </div>
+                <div class="top-care-guides-side">
+                    <a href="emergency.html" class="button-anchor">
+                        <div class="care-guide-button">EMERGENCY</div>
+                    </a>
+
+                    <a href="https://app.petdesk.com/request-appointment/tender-touch-small-animal-hospital?placeGUID=c87ebbf9-8f32-403b-b859-b6c64ed117ce" target="_blank" class="button-anchor">
+                        <div class="care-guide-button">Schedule Now</div>
+                    </a>
+                </div>
+            </div>
+            <div class="care-guide-item" id="allergytesting">
+                <a href="#allergy-testing">
+                    <h2>Allergy Testing</h2>
+                </a>
+                <p>Allergy testing for pets is crucial for identifying various environmental or food allergens that affect your animal, leading to tailored treatment plans that improve their quality of life.</p>
+            </div>
+            <div class="care-guide-item" id="bloodwork">
+                <a href="#blood-work">
+                    <h2>Blood Work</h2>
+                </a>
+                <p>Regular blood work is a vital part of maintaining your pet's health, helping to detect diseases early and monitor organ function.</p>
+            </div>
+            <div class="care-guide-item" id="vaccinationinfo">
+                <a href="#vaccination-info">
+                    <h2>Vaccination Information</h2>
+                </a>
+                <p>Vaccinations are essential for protecting your pets from various diseases and infections, ensuring a long and healthy life.</p>
+            </div>
+            <div class="care-guide-item" id="generalhealth">
+                <a href="#general-health">
+                    <h2>General Health Check</h2>
+                </a>
+                <p>General health checks are recommended at least once a year to assess overall health and catch potential health issues early.</p>
+            </div>
+            <div class="care-guide-item" id="dentalcare">
+                <a href="#dental-care">
+                    <h2>Dental Care</h2>
+                </a>
+                <p>Dental care is critical for pets to prevent dental diseases that can affect their overall health, including regular cleanings and check-ups.</p>
+            </div>
+            <div class="care-guide-item" id="nutritionadvice">
+                <a href="#nutrition-advice">
+                    <h2>Nutrition Advice</h2>
+                </a>
+                <p>Proper nutrition is key to a healthy pet. Our experts provide personalized dietary advice based on your pet's age, breed, and health conditions.</p>
+            </div>
+            <div class="care-guide-item" id="behavioraltraining">
+                <a href="#behavioral-training">
+                    <h2>Behavioral Training</h2>
+                </a>
+                <p>Behavioral training helps manage and correct behavioral issues in pets, enhancing their social skills and quality of life.</p>
+            </div>
+            <div class="care-guide-item" id="emergencycare">
+                <a href="#emergency-care">
+                    <h2>Emergency Care</h2>
+                </a>
+                <p>Our emergency care services are available around the clock to address any urgent health concerns that your pet may encounter.</p>
+            </div>
+            <div class="care-guide-item" id="spatreatments">
+                <a href="#spa-treatments">
+                    <h2>Spa Treatments</h2>
+                </a>
+                <p>Pamper your pets with our spa treatments that not only clean but also relax your pet, improving their emotional and physical well-being.</p>
+            </div>
+            <div class="care-guide-item" id="microchipping">
+                <a href="#microchipping">
+                    <h2>Microchipping</h2>
+                </a>
+                <p>Microchipping is a safe and permanent way to ensure your pet's safety and your peace of mind, helping you track and recover your pet if they ever get lost.</p>
+            </div>
+            <div class="care-guide-item" id="seniorcare">
+                <a href="#senior-care">
+                    <h2>Senior Care</h2>
+                </a>
+                <p>Specialized care for senior pets focuses on managing chronic health issues and maintaining a quality of life as they age.</p>
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
     </div>
 
     <footer>
         <div class="footer">
             <div class="officehours">
                 <h2 class="footer-header">Office Hours</h2>
-                <p class="footer-text">Mon, Tue, Thu, & Fri: 9:00am - 6:00pm<br> Wed: 9:00am - 2:00pm<br> Saturday:
-                    9:00am - 5:00pm<br> Sunday: Closed</p>
+                <p class="footer-text">Mon, Tue, Thu, & Fri: 9:00am - 6:00pm<br> Wed: 9:00am - 2:00pm<br> Saturday: 9:00am - 5:00pm<br> Sunday: Closed</p>
             </div>
 
             <div class="intouch">
@@ -114,9 +189,7 @@ Cat Litter
                     <div class="underline"></div>
                 </div>
                 <div class="footer-nav-item medium">
-                    <div class="nav-text"><a
-                            href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms"
-                            target="_blank">Pharmacy</a></div>
+                    <div class="nav-text"><a href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms" target="_blank">Pharmacy</a></div>
                     <div class="underline"></div>
                 </div>
             </div>
