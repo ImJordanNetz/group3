@@ -888,7 +888,7 @@ form#contactForm button:hover {
     }
     .home_button_box {
         display: grid;
-        grid-template-columns: 33% 12% 10% 12% 33%;
+        grid-template-columns: 27% 18% 10% 18% 27%;
         margin-top: 2vw;
         margin-bottom: 2vw;
     }
