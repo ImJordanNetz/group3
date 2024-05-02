@@ -523,6 +523,7 @@ h2.outline-text {
     border: 2px solid var(--secondary);
     transition: background-color 0.3s ease;
     cursor: pointer;
+    font-family: "apertura", sans-serif;
 }
 
 .top-care-guides-side .care-guide-button:hover {
@@ -881,8 +882,7 @@ form#contactForm button:hover {
         width: 80%;
         text-align: center;
     }
-
-    .contact-us-wrapper h2{
+    .contact-us-wrapper h2 {
         font-size: 9em;
         display: flex;
         flex-direction: column;
@@ -895,13 +895,12 @@ form#contactForm button:hover {
     #contactForm button {
         margin: 2vh 0;
         font-size: 4em;
+        font-family: "apertura", sans-serif;
     }
-
-    #contactForm label{
+    #contactForm label {
         font-size: 4em;
     }
-
-    .contact-us-info-wrapper{
+    .contact-us-info-wrapper {
         display: flex;
         flex-direction: column;
         text-align: center;
