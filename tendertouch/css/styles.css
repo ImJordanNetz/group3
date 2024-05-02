@@ -734,6 +734,7 @@ form#contactForm button:hover {
     grid-column: 1;
     text-align: center;
     margin-left: 3.1vw;
+    margin-top: 4.8vw;
 }
 
 .emergency_image {
