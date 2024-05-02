@@ -65,8 +65,6 @@ p {
     height: 30vw;
     border: 2px solid var(--secondary);
     border-radius: 1em;
-    object-fit: cover;
-    box-shadow: rgba(100, 100, 111, 0.6) 0em 0.438em 1.813em 0em;
 }
 
 .active .underline {
@@ -244,10 +242,11 @@ h2.outline-text {
 .sub-title-staff1 {
     font-family: "apertura", sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.2em;
     color: var(--text);
     -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
+    margin-top: 1em;
 }
 
 .sub-title-staff2 {
@@ -476,9 +475,9 @@ h2.outline-text {
     padding: 1em;
     font-size: 1.6em;
     width: fit-content;
-    background-color: white;
+    background-color: var(--primary);
     border-radius: 1em;
-    border: 0.1em solid var(--secondary);
+    border: 0.04em solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: none;
     outline: none;
@@ -489,8 +488,10 @@ h2.outline-text {
 }
 
 #filterInput:focus {
-    border-color: var(--secondary);
-
+    border-color: var(--text);
+    /* Change border color on focus for better visibility */
+    box-shadow: 0 0 8px var(--highlight);
+    /* Soft glow effect on focus */
 }
 
 .top-care-guides-side .care-guide-button {
@@ -536,9 +537,7 @@ h2.outline-text {
     font-size: 3em;
 }
 
-
 .contact-us-wrapper {
-    
     width: 60%;
     box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
     margin: auto;
@@ -547,12 +546,12 @@ h2.outline-text {
     padding: 3em;
 }
 
-.contact-us-wrapper h2{
+.contact-us-wrapper h2 {
     font-size: 4em;
     margin: 0;
 }
 
-.contact-us-wrapper p{
+.contact-us-wrapper p {
     margin: 0;
     font-size: 1.8em;
 }
@@ -599,15 +598,12 @@ h2.outline-text {
     transform: translate(-0px, -5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 5px #cfa4a1;
-
 }
 
 form#contactForm button:hover {
-    
     transform: translate(-0px, -0px);
     box-shadow: none
 }
-
 
 .footer {
     margin-top: 5vh;
@@ -643,7 +639,6 @@ form#contactForm button:hover {
     padding: 2%;
     grid-template-columns: 50% 50%;
     place-items: center;
-    
 }
 
 .service-right {
@@ -658,8 +653,6 @@ form#contactForm button:hover {
     padding-left: 10%;
     padding-right: 5%;
     text-align: right;
-    
-    
 }
 
 .service-left .service-text-container {
@@ -797,10 +790,32 @@ form#contactForm button:hover {
 }
 
 @media (max-width:620px) {
+    h1.outline-text {
+        font-family: "apertura", sans-serif;
+        color: var(--text);
+        font-weight: bold;
+        -webkit-text-stroke: 0.04em var(--footer);
+        text-align: center;
+        font-size: 13em;
+    }
+    h2.outline-text {
+        font-family: "apertura", sans-serif;
+        color: var(--text);
+        font-weight: bold;
+        font-size: 10em;
+        -webkit-text-stroke: 0.04em var(--footer);
+        text-align: center;
+    }
     .welcome {
         grid-row: 2;
         grid-column: 1/span 2;
         margin-left: 4em;
+    }
+    .sub-title-welcome {
+        font-size: 4em;
+    }
+    .welcometext {
+        font-size: 1.5em;
     }
     .carousel {
         grid-row: 1;
@@ -808,6 +823,10 @@ form#contactForm button:hover {
     }
     .sub-title-testimonial {
         margin-top: 2em;
+        font-size: 8em;
+    }
+    .testimonial {
+        font-size: 3.5em;
     }
     .testimonial1 {
         grid-row: 3;
@@ -866,5 +885,11 @@ form#contactForm button:hover {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+    .button {
+        font-size: 3.5em;
+    }
+    .sub-title-staff1 {
+        font-size: 1.53em;
     }
 }
