@@ -938,11 +938,11 @@ form#contactForm button:hover {
         text-align: center;
     }
     .staff-text {
-        font-size: 2em;
+        font-size: 1.5em;
         font-family: "apertura", sans-serif;
     }
     .carreers {
-        font-size: 2.3em;
+        font-size: 2.2em;
         font-family: "apertura", sans-serif;
     }
 }
