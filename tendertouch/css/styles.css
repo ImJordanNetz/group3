@@ -103,7 +103,7 @@ nav .nav-buckets {
     font-size: 3rem;
     margin-left: 2vw;
     margin-right: 2vw;
-    padding: 6vh 0;
+    padding: 2.6vw 0;
 }
 
 a {
@@ -134,7 +134,7 @@ h2.outline-text {
 }
 
 #logo {
-    width: 14vh;
+    width: 7vw;
     margin-left: 3vw;
 }
 
@@ -414,34 +414,6 @@ h2.outline-text {
     text-align: center;
 }
 
-.footer {
-    margin-top: 5vh;
-    width: 100%;
-    bottom: 0px;
-    left: 0px;
-    background-color: var(--footer);
-    padding: 50px 20px 40px 20px;
-    overflow: auto;
-}
-
-.officehours {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.intouch {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.partners {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
 .service-left {
     display: grid;
     box-sizing: border-box;
@@ -476,20 +448,73 @@ h2.outline-text {
     font-size: 3.5em;
 }
 
+.emergency_box {
+    float: left;
+    width: 100%;
+}
+
+.emergency_header {
+    font-size: 4vw;
+    float: left;
+    width: 100%;
+    color: var(--text);
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.emergency_text {
+    font-size: 2vw;
+    float: left;
+    width: 100%;
+    color: var(--text);
+    text-align: center;
+    line-height: 3.9vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.footer {
+    margin-top: 5vh;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--footer);
+    padding: 5vh 2vw 4vh 2vw;
+    overflow: auto;
+}
+
+.officehours {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.intouch {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.partners {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
 .footer-header {
-    font-size: 28px;
+    font-size: 5rem;
     font-weight: 700;
-    padding-bottom: 18px;
+    padding-bottom: 2vh;
 }
 
 .footer-subheader {
-    font-size: 22px;
+    font-size: 4rem;
     font-weight: 600;
-    padding: 8px;
+    padding: 1vw;
 }
 
 .footer-text {
-    font-size: 16px;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -500,7 +525,7 @@ h2.outline-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 5vh;
 }
 
 .footer-nav-item {
