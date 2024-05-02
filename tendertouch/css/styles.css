@@ -641,7 +641,7 @@ h2.outline-text {
 .emergency_image {
     grid-column: 3;
     text-align: center;
-} 
+}
 
 .emergency_image img {
     height: 30vw;
@@ -716,28 +716,37 @@ h2.outline-text {
 }
 
 @media (max-width:620px) {
+    .welcome {
+        grid-row: 2;
+        grid-column: 1/span 2;
+        margin-left: 4em;
+    }
+    .carousel {
+        grid-row: 1;
+        grid-column: 1/span 2;
+    }
     .sub-title-testimonial {
         margin-top: 2em;
     }
     .testimonial1 {
         grid-row: 3;
-        grid-column: 1/span 2;
-        width: 95%;
+        grid-column: 1/span 4;
+        margin-top: 2em;
     }
     .testimonial2 {
         grid-row: 4;
-        grid-column: 3/span 2;
-        width: 95%;
+        grid-column: 1/span 4;
+        margin-top: 2em;
     }
     .testimonial3 {
-        grid-row: 4;
-        grid-column: 1/span 2;
-        width: 95%;
+        grid-row: 5;
+        grid-column: 1/span 4;
+        margin-top: 2em;
     }
     .testimonial4 {
-        grid-row: 3;
-        grid-column: 3/span 2;
-        width: 95%;
+        grid-row: 6;
+        grid-column: 1/span 4;
+        margin-top: 2em;
     }
     .description-owner {
         grid-row: 1;
