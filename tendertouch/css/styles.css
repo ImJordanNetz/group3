@@ -584,7 +584,7 @@ h2.outline-text {
 }
 
 .emergency_header {
-    font-size: 2vw;
+    font-size: 2.5vw;
     float: left;
     width: 100%;
     color: var(--text);
