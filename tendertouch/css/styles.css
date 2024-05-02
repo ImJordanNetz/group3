@@ -7,7 +7,7 @@ body {
 }
 
 @import url("https://use.typekit.net/xjj7uou.css");
-:root {
+ :root {
     font-size: 0.5vw;
     font-family: "apertura", sans-serif;
     ;
@@ -561,7 +561,7 @@ h2.outline-text {
 
 .contact-us-wrapper p {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .contact-us-info-wrapper {
@@ -571,52 +571,38 @@ h2.outline-text {
 }
 
 .contact-us-info-wrapper p {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #contactForm {
     display: grid;
-    /* Using grid layout for form elements */
     grid-template-columns: 1fr;
-    /* One column layout */
 }
 
 #contactForm label {
+    font-size: 2.5em;
     display: block;
-    /* Makes label block-level for better control */
     margin-bottom: 5px;
-    /* Space below each label */
     font-weight: bold;
-    /* Makes text bold */
 }
 
 #contactForm input,
 #contactForm textarea {
     width: 100%;
-    /* Full width of the form */
     padding: 8px;
-    /* Padding inside the input fields */
     border: 1px solid #ccc;
-    /* Light grey border */
     border-radius: 5px;
-    /* Rounded corners on inputs and textarea */
     box-sizing: border-box;
-    /* Box sizing to include padding in width */
 }
 
-form#contactForm button {
+#contactForm button {
     font-size: 2em;
     background-color: var(--primary);
-    /* Primary color for button */
     color: rgb(0, 0, 0);
     padding: 10px 15px;
-    /* Padding inside the button */
     border: none;
-    /* No border */
     border-radius: 5px;
-    /* Rounded corners for the button */
     cursor: pointer;
-    /* Cursor indicates clickable */
     transform: translate(-0px, -5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 5px #cfa4a1;
@@ -880,6 +866,29 @@ form#contactForm button:hover {
         grid-column: 1/span 2;
         text-align: center;
     }
+    .contact-us-wrapper {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us-wrapper h2 {
+        font-size: 7em;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us-wrapper p {
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+    #contactForm button {
+        margin: 2vh 0;
+    }
+    .contact-us-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
     .button {
         font-size: 3.5em;
     }
@@ -891,5 +900,17 @@ form#contactForm button:hover {
         grid-template-columns: 27% 18% 10% 18% 27%;
         margin-top: 2vw;
         margin-bottom: 2vw;
+    }
+    .care-guide-item {
+        padding: 2em;
+        width: 100%;
+        border-radius: 2em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 1em 6em 0px;
+        background-color: var(--bckgrnd);
+        margin: 0.5vw 0;
+        font-size: 2em;
+    }
+    .contact-text {
+        text-align: center;
     }
 }
