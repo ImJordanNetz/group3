@@ -65,6 +65,8 @@ p {
     height: 30vw;
     border: 2px solid var(--secondary);
     border-radius: 1em;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.6) 0em 0.438em 1.813em 0em;
 }
 
 .active .underline {
@@ -145,7 +147,7 @@ h2.outline-text {
 }
 
 .grid-container {
-    margin-top: 3vw;
+    margin-top: 6vh;
     display: grid;
     grid-template-columns: 45% 55%;
     grid-gap: 0.625em;
@@ -346,13 +348,6 @@ h2.outline-text {
     font-size: 3.5em;
 }
 
-.map {
-    grid-row: 2;
-    grid-column: 2 / span 1;
-    align-content: center;
-    text-align: center;
-}
-
 .form-grid {
     grid-row: 3;
     grid-column: 2/ span 1;
@@ -367,8 +362,7 @@ h2.outline-text {
 }
 
 .streetview {
-    height: 500px;
-    width: 605px;
+    width: 30em;
 }
 
 .grid-container4 {
@@ -460,9 +454,9 @@ h2.outline-text {
     padding: 1em;
     font-size: 1.6em;
     width: fit-content;
-    background-color: var(--primary);
+    background-color: white;
     border-radius: 1em;
-    border: 0.04em solid var(--secondary);
+    border: 0.1em solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: none;
     outline: none;
@@ -473,10 +467,8 @@ h2.outline-text {
 }
 
 #filterInput:focus {
-    border-color: var(--text);
-    /* Change border color on focus for better visibility */
-    box-shadow: 0 0 8px var(--highlight);
-    /* Soft glow effect on focus */
+    border-color: var(--secondary);
+
 }
 
 .top-care-guides-side .care-guide-button {
@@ -522,8 +514,80 @@ h2.outline-text {
     font-size: 3em;
 }
 
+
+.contact-us-wrapper {
+    
+    width: 60%;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    margin: auto;
+    margin-top: 7vh;
+    border-radius: 30px;
+    padding: 3em;
+}
+
+.contact-us-wrapper h2{
+    font-size: 4em;
+    margin: 0;
+}
+
+.contact-us-wrapper p{
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.contact-us-info-wrapper {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-info-wrapper p{
+    font-size: 2em;
+}
+
+#contactForm {
+    display: grid; /* Using grid layout for form elements */
+    grid-template-columns: 1fr; /* One column layout */
+}
+
+#contactForm label {
+    display: block; /* Makes label block-level for better control */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Makes text bold */
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%; /* Full width of the form */
+    padding: 8px; /* Padding inside the input fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners on inputs and textarea */
+    box-sizing: border-box; /* Box sizing to include padding in width */
+}
+
+form#contactForm button {
+    font-size: 2em;
+    background-color: var(--primary); /* Primary color for button */
+    color: rgb(0, 0, 0);
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Cursor indicates clickable */
+    transform: translate(-0px, -5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 5px #cfa4a1;
+
+}
+
+form#contactForm button:hover {
+    
+    transform: translate(-0px, -0px);
+    box-shadow: none
+}
+
+
 .footer {
-    margin-top: 1vw;
+    margin-top: 5vh;
     width: 100%;
     bottom: 0px;
     left: 0px;
@@ -556,6 +620,7 @@ h2.outline-text {
     padding: 2%;
     grid-template-columns: 50% 50%;
     place-items: center;
+    
 }
 
 .service-right {
@@ -570,6 +635,8 @@ h2.outline-text {
     padding-left: 10%;
     padding-right: 5%;
     text-align: right;
+    
+    
 }
 
 .service-left .service-text-container {
@@ -590,6 +657,7 @@ h2.outline-text {
 .emergency_box {
     float: left;
     width: 100%;
+    margin-top: 4em;
 }
 
 .emergency_header {
@@ -598,8 +666,9 @@ h2.outline-text {
     width: 100%;
     color: var(--text);
     text-align: center;
-    margin-top: 1vw;
+    margin-top: 2vh;
     font-weight: 600;
+    font-family: "apertura", sans-serif;
 }
 
 .emergency_text {
@@ -609,8 +678,8 @@ h2.outline-text {
     color: var(--text);
     text-align: center;
     line-height: 3.9vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 6vh;
 }
 
 .emergency_grid {
@@ -638,12 +707,12 @@ h2.outline-text {
 }
 
 .footer {
-    margin-top: 2vw;
+    margin-top: 5vh;
     width: 100%;
     bottom: 0px;
     left: 0px;
     background-color: var(--footer);
-    padding: 4vw 2vw 3vw 2vw;
+    padding: 5vh 2vw 4vh 2vw;
     overflow: auto;
 }
 
@@ -668,7 +737,7 @@ h2.outline-text {
 .footer-header {
     font-size: 5rem;
     font-weight: 700;
-    padding-bottom: 2vw;
+    padding-bottom: 2vh;
 }
 
 .footer-subheader {
@@ -689,7 +758,7 @@ h2.outline-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3vw;
+    padding-top: 5vh;
 }
 
 .footer-nav-item {
