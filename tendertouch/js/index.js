@@ -22,3 +22,4 @@ function filterDivs() {
         noGuidesDiv.style.display = 'block'; 
     }
 }
+

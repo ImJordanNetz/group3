@@ -13,48 +13,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/xjj7uou.css">
     <title>Care Guides</title>
     <link rel="icon" href="images/logo.final.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-buckets">
-            <div>
-                <a href="index.html"><img id="logo" alt="company logo, outline of a dog in a ring" src="./images/logo.final.png"></a>
-            </div>
-        </div>
-        <div class="nav-buckets">
-            <div class="nav-item medium">
-                <div class="nav-text"><a href="index.html">Our Practice</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="nav-item medium">
-                <div class="nav-text"><a href="services.html">Services</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="nav-item medium active">
-                <div class="nav-text"><a href="care-guides.html">Care Guides</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="nav-item medium">
-                <div class="nav-text"><a href="our-staff.html">Staff</a></div>
-                <div class="underline"></div>
-            </div>
-        </div>
-
-        <div class="empty"></div>
-
-        <div class="nav-buckets">
-            <div class="nav-item medium">
-                <div class="nav-text"><a href="contact-us.html">Contact Us</a></div>
-                <div class="underline"></div>
-            </div>
-            <div class="nav-item medium">
-                <div class="nav-text"><a href="https://tendertouchsmallanimalhospital.securevetsource.com/site/view/103377_Home.pml?retUrl=http://www.tendertouchah.com/&cms" target="_blank">Pharmacy</a></div>
-                <div class="underline"></div>
-            </div>
-        </div>
-    </nav>
-
+    <div w3-include-html="navigation.html"></div>
     <div class="main">
         <h1 class="outline-text">TENDER TOUCH</h1>
         <h2 class="outline-text">SMALL ANIMAL HOSPITAL</h2>
@@ -198,6 +162,11 @@
             </div>
         </div>
     </footer>
+    <script>
+        w3.includeHTML();
+    </script>
+    <script src="./js/index.js"></script>
 </body>
+
 
 </html>
