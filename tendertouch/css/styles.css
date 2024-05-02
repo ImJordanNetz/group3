@@ -385,8 +385,6 @@ h2.outline-text {
     width: 605px;
 }
 
-
-
 .grid-container4 {
     display: grid;
     grid-template-columns: 55% 45%;
@@ -428,7 +426,7 @@ h2.outline-text {
     text-align: center;
 }
 
-#care-guide-container{
+#care-guide-container {
     width: 50%;
     margin: auto;
 }
@@ -442,22 +440,20 @@ h2.outline-text {
     margin: 1vh 0;
 }
 
-.top-care-guides{
+.top-care-guides {
     margin-top: 7vh;
     display: flex;
     justify-content: space-between;
 }
 
-.top-care-guides-side{
+.top-care-guides-side {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.top-care-guides-side *{
+.top-care-guides-side * {
     margin: 0.3em;
-
 }
 
 #filterInput {
@@ -472,18 +468,19 @@ h2.outline-text {
     box-shadow: none;
     outline: none;
     display: inline-flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     cursor: text;
 }
 
 #filterInput:focus {
-    border-color: var(--text); /* Change border color on focus for better visibility */
-    box-shadow: 0 0 8px var(--highlight); /* Soft glow effect on focus */
+    border-color: var(--text);
+    /* Change border color on focus for better visibility */
+    box-shadow: 0 0 8px var(--highlight);
+    /* Soft glow effect on focus */
 }
 
-
-.top-care-guides-side .care-guide-button{
+.top-care-guides-side .care-guide-button {
     height: 1.8em;
     padding: 1em;
     display: grid;
@@ -502,8 +499,6 @@ h2.outline-text {
     background-color: var(--secondary);
 }
 
-
-
 .care-guide-item a {
     display: inline-block;
     text-decoration: underline;
@@ -513,17 +508,11 @@ h2.outline-text {
 .care-guide-item h2 {
     font-size: 3em;
     width: fit-content;
-    
 }
 
 .care-guide-item p {
     font-size: 1.7em;
     width: fit-content;
-    
-}
-
-#none-found h2{
-    font-size: 3em;
 }
 
 .footer {
