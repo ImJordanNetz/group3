@@ -375,6 +375,8 @@ h2.outline-text {
     width: 605px;
 }
 
+
+
 .grid-container4 {
     display: grid;
     grid-template-columns: 55% 45%;
@@ -414,6 +416,104 @@ h2.outline-text {
     font-size: 20px;
     padding: 15px;
     text-align: center;
+}
+
+#care-guide-container{
+    width: 50%;
+    margin: auto;
+}
+
+.care-guide-item {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--bckgrnd);
+    margin: 1vh 0;
+}
+
+.top-care-guides{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-care-guides-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top-care-guides-side *{
+    margin: 0.3em;
+
+}
+
+#filterInput {
+    height: 1.8em;
+    padding: 1em;
+    font-size: 1.6em;
+    width: fit-content;
+    background-color: var(--primary);
+    border-radius: 7px;
+    border: 2px solid var(--secondary);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: text;
+}
+
+#filterInput:focus {
+    border-color: var(--text); /* Change border color on focus for better visibility */
+    box-shadow: 0 0 8px var(--highlight); /* Soft glow effect on focus */
+}
+
+
+.top-care-guides-side .care-guide-button{
+    height: 1.8em;
+    padding: 1em;
+    display: grid;
+    place-items: center;
+    font-size: 1.6em;
+    display: inline-flex;
+    width: fit-content;
+    background-color: var(--primary);
+    border-radius: 7px;
+    border: 2px solid var(--secondary);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.top-care-guides-side .care-guide-button:hover {
+    background-color: var(--secondary);
+}
+
+
+
+.care-guide-item a {
+    display: inline-block;
+    text-decoration: underline;
+    color: var(--secondary);
+}
+
+.care-guide-item h2 {
+    font-size: 3em;
+    width: fit-content;
+    
+}
+
+.care-guide-item p {
+    font-size: 1.7em;
+    width: fit-content;
+    
+}
+
+#none-found h2{
+    font-size: 3em;
 }
 
 .footer {
