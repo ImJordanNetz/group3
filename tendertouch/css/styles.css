@@ -570,7 +570,7 @@ h2.outline-text {
     justify-content: space-between;
 }
 
-.contact-us-info-wrapper p{
+.contact-us-info-wrapper p {
     font-size: 2.5em;
 }
 
@@ -581,28 +581,28 @@ h2.outline-text {
 
 #contactForm label {
     font-size: 2.5em;
-    display: block; 
-    margin-bottom: 5px; 
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
 #contactForm input,
 #contactForm textarea {
-    width: 100%; 
-    padding: 8px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    box-sizing: border-box; 
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 #contactForm button {
     font-size: 2em;
-    background-color: var(--primary); 
+    background-color: var(--primary);
     color: rgb(0, 0, 0);
-    padding: 10px 15px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transform: translate(-0px, -5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 5px #cfa4a1;
@@ -866,30 +866,25 @@ form#contactForm button:hover {
         grid-column: 1/span 2;
         text-align: center;
     }
-
-    .contact-us-wrapper{
+    .contact-us-wrapper {
         margin-top: 2vh;
         display: flex;
         flex-direction: column;
     }
-
-    .contact-us-wrapper h2{
+    .contact-us-wrapper h2 {
         font-size: 7em;
         display: flex;
         flex-direction: column;
     }
-
-    .contact-us-wrapper p{
+    .contact-us-wrapper p {
         font-size: 3em;
         display: flex;
         flex-direction: column;
     }
-
-    #contactForm button{
+    #contactForm button {
         margin: 2vh 0;
     }
-
-    .contact-us-info-wrapper{
+    .contact-us-info-wrapper {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -914,5 +909,8 @@ form#contactForm button:hover {
         background-color: var(--bckgrnd);
         margin: 0.5vw 0;
         font-size: 2em;
+    }
+    .contact-text {
+        text-align: center;
     }
 }
