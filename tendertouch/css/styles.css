@@ -871,28 +871,36 @@ form#contactForm button:hover {
         margin-top: 2vh;
         display: flex;
         flex-direction: column;
+        width: 80%;
+        text-align: center;
     }
 
     .contact-us-wrapper h2{
-        font-size: 7em;
+        font-size: 9em;
         display: flex;
         flex-direction: column;
     }
 
     .contact-us-wrapper p{
-        font-size: 3em;
+        font-size: 4em;
         display: flex;
         flex-direction: column;
     }
 
     #contactForm button{
         margin: 2vh 0;
+        font-size: 4em;
+    }
+
+    #contactForm label{
+        font-size: 4em;
     }
 
     .contact-us-info-wrapper{
         display: flex;
         flex-direction: column;
         text-align: center;
+        font-size: 1.9em;
     }
     .button {
         font-size: 3.5em;
