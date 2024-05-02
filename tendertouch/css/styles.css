@@ -653,17 +653,17 @@ form#contactForm button:hover {
 .service-left {
     display: grid;
     box-sizing: border-box;
-    padding: 2%;
     grid-template-columns: 50% 50%;
     place-items: center;
+    margin-bottom: 3vw;
 }
 
 .service-right {
     display: grid;
     box-sizing: border-box;
-    padding: 2% 3%;
     grid-template-columns: 50% 50%;
     place-items: center;
+    margin-bottom: 3vw;
 }
 
 .service-right .service-text-container {
