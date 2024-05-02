@@ -242,10 +242,11 @@ h2.outline-text {
 .sub-title-staff1 {
     font-family: "apertura", sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.2em;
     color: var(--text);
     -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
+    margin-top: 1em;
 }
 
 .sub-title-staff2 {
@@ -844,5 +845,11 @@ form#contactForm button:hover {
         grid-row: 2;
         grid-column: 1/span 2;
         text-align: center;
+    }
+    .button {
+        font-size: 3.5em;
+    }
+    .sub-title-staff1 {
+        font-size: 1.53em;
     }
 }
