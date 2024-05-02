@@ -75,7 +75,6 @@ p {
     padding: 0.3em 1.3em;
     background-color: var(--primary);
     border-radius: 7px;
-    border: 2px solid var(--secondary);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform: translate(-0px, -5px);
@@ -159,7 +158,7 @@ h2.outline-text {
 
 .carousel-item {
     width: 100%;
-    height: 45em;
+    height: 60em;
 }
 
 .carousel-control-prev-icon {
@@ -173,7 +172,7 @@ h2.outline-text {
 .welcome {
     grid-row: 1;
     grid-column: 2/span1;
-    font-size: 2.2em;
+    font-size: 2.5em;
     padding: 10px;
     padding-right: 7em;
     color: text;
@@ -271,6 +270,7 @@ h2.outline-text {
 .sub-title-welcome {
     font-family: "apertura", sans-serif;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 40px;
     color: var(--text);
@@ -320,7 +320,7 @@ h2.outline-text {
     margin: 0;
     position: absolute;
     top: 35%;
-    left: 33%;
+    left: 34%;
 }
 
 .emergency {
@@ -334,6 +334,7 @@ h2.outline-text {
     position: absolute;
     top: 35%;
     left: 53%;
+    font-family: "apertura", sans-serif;
 }
 
 .schedule:hover,
@@ -384,12 +385,6 @@ h2.outline-text {
     height: 500px;
     width: 605px;
 }
-
-
-/*code sourced from: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form */
-
-
-/*end code source*/
 
 .grid-container4 {
     display: grid;
