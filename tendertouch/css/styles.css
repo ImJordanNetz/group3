@@ -809,12 +809,22 @@ form#contactForm button:hover {
         grid-column: 1/span 2;
         margin-left: 4em;
     }
+    .sub-title-welcome {
+        font-size: 4em;
+    }
+    .welcometext {
+        font-size: 1.5em;
+    }
     .carousel {
         grid-row: 1;
         grid-column: 1/span 2;
     }
     .sub-title-testimonial {
         margin-top: 2em;
+        font-size: 8em;
+    }
+    .testimonial {
+        font-size: 3.5em;
     }
     .testimonial1 {
         grid-row: 3;
