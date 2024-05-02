@@ -472,16 +472,17 @@ h2.outline-text {
 }
 
 .emergency_header {
-    font-size: 4vw;
+    font-size: 3vw;
     float: left;
     width: 100%;
     color: var(--text);
     text-align: center;
     margin-top: 2vh;
+    font-weight: 600;
 }
 
 .emergency_text {
-    font-size: 2vw;
+    font-size: 1.6vw;
     float: left;
     width: 100%;
     color: var(--text);
