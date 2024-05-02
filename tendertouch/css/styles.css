@@ -55,7 +55,7 @@ p {
 }
 
 .rounded-photo {
-    width: 60%;
+    width: 70%;
     border: 2px solid var(--secondary);
     border-radius: 1em;
 }
@@ -440,20 +440,40 @@ h2.outline-text {
     text-align: center;
 }
 
-.service {
+.service-left {
     display: grid;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 2%;
     grid-template-columns: 50% 50%;
     place-items: center;
 }
 
+.service-right {
+    display: grid;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+
+}
+
+.service-right .service-text-container{
+    padding-left: 20%;
+    text-align: right;
+}
+
+.service-left .service-text-container{
+    padding-right: 20%;
+    text-align: left;
+}
+
 .service-text-container p {
-    font-size: 16px;
+    font-size: 2em;
+
 }
 
 .service-text-container h2 {
-    font-size: 30px;
+    font-size: 3.5em;
 }
 
 .footer-header {
