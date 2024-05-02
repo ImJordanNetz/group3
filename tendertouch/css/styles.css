@@ -491,7 +491,7 @@ h2.outline-text {
     padding: 1em;
     font-size: 2.8em;
     width: fit-content;
-    background-color: var(--primary);
+    background-color: white;
     border-radius: 1em;
     border: 0.04em solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -725,7 +725,7 @@ form#contactForm button:hover {
 .afterhours {
     grid-column: 1;
     text-align: center;
-    margin-left: 2vw;
+    margin-left: 3.1vw;
 }
 
 .emergency_image {
@@ -878,24 +878,34 @@ form#contactForm button:hover {
         margin-top: 2vh;
         display: flex;
         flex-direction: column;
+        width: 80%;
+        text-align: center;
     }
-    .contact-us-wrapper h2 {
-        font-size: 7em;
+
+    .contact-us-wrapper h2{
+        font-size: 9em;
         display: flex;
         flex-direction: column;
     }
     .contact-us-wrapper p {
-        font-size: 3em;
+        font-size: 4em;
         display: flex;
         flex-direction: column;
     }
     #contactForm button {
         margin: 2vh 0;
+        font-size: 4em;
     }
-    .contact-us-info-wrapper {
+
+    #contactForm label{
+        font-size: 4em;
+    }
+
+    .contact-us-info-wrapper{
         display: flex;
         flex-direction: column;
         text-align: center;
+        font-size: 1.9em;
     }
     .button {
         font-size: 5em;
