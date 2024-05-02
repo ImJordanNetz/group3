@@ -145,7 +145,7 @@ h2.outline-text {
 }
 
 .grid-container {
-    margin-top: 6vh;
+    margin-top: 3vw;
     display: grid;
     grid-template-columns: 45% 55%;
     grid-gap: 0.625em;
@@ -534,7 +534,7 @@ h2.outline-text {
 }
 
 .footer {
-    margin-top: 5vh;
+    margin-top: 1vw;
     width: 100%;
     bottom: 0px;
     left: 0px;
@@ -609,7 +609,7 @@ h2.outline-text {
     width: 100%;
     color: var(--text);
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 1vw;
     font-weight: 600;
 }
 
@@ -620,8 +620,8 @@ h2.outline-text {
     color: var(--text);
     text-align: center;
     line-height: 3.9vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .emergency_grid {
@@ -649,12 +649,12 @@ h2.outline-text {
 }
 
 .footer {
-    margin-top: 5vh;
+    margin-top: 2vw;
     width: 100%;
     bottom: 0px;
     left: 0px;
     background-color: var(--footer);
-    padding: 5vh 2vw 4vh 2vw;
+    padding: 4vw 2vw 3vw 2vw;
     overflow: auto;
 }
 
@@ -679,7 +679,7 @@ h2.outline-text {
 .footer-header {
     font-size: 5rem;
     font-weight: 700;
-    padding-bottom: 2vh;
+    padding-bottom: 2vw;
 }
 
 .footer-subheader {
@@ -700,7 +700,7 @@ h2.outline-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5vh;
+    padding-top: 3vw;
 }
 
 .footer-nav-item {
