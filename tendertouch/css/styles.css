@@ -7,7 +7,7 @@ body {
 }
 
 @import url("https://use.typekit.net/xjj7uou.css");
-:root {
+ :root {
     font-size: 0.5vw;
     font-family: "apertura", sans-serif;
     ;
@@ -877,5 +877,14 @@ form#contactForm button:hover {
     }
     .sub-title-staff1 {
         font-size: 1.53em;
+    }
+    .care-guide-item {
+        padding: 2em;
+        width: 100%;
+        border-radius: 2em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 1em 6em 0px;
+        background-color: var(--bckgrnd);
+        margin: 0.5vw 0;
+        font-size: 2em;
     }
 }
