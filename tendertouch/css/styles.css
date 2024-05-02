@@ -352,10 +352,10 @@ h2.outline-text {
 .map {
     grid-row: 2;
     grid-column: 2 / span 1;
-    margin-top: 12em;
+    margin-top: 14em;
 }
 
-.form {
+.form-grid {
     grid-row: 3;
     grid-column: 2/ span 1;
     padding: 20px;
@@ -372,6 +372,12 @@ h2.outline-text {
     height: 500px;
     width: 605px;
 }
+
+
+/*code sourced from: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form */
+
+
+/*end code source*/
 
 .grid-container4 {
     display: grid;
