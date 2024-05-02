@@ -61,7 +61,7 @@ p {
 }
 
 .rounded-photo {
-    width: 30vw;
+    width: 40vw;
     height: 30vw;
     border: 2px solid var(--secondary);
     border-radius: 1em;
