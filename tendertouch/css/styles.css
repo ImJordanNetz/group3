@@ -316,26 +316,20 @@ h2.outline-text {
     background-color: var(--primary);
     border: none;
     color: var(--text);
-    padding: 15px 32px;
+    padding: 1em 2em;
     font-size: 2.2em;
     cursor: pointer;
     margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 34%;
 }
 
 .emergency {
     background-color: var(--primary);
     border: none;
     color: var(--text);
-    padding: 15px 32px;
+    padding: 1em 2em;
     font-size: 2.2em;
     cursor: pointer;
     margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 53%;
     font-family: "apertura", sans-serif;
 }
 
@@ -397,7 +391,6 @@ h2.outline-text {
 .dr {
     grid-row: 2;
     grid-column: 2 / span 1;
-    margin-top: 15em;
     margin-left: 7em;
 }
 
@@ -409,7 +402,6 @@ h2.outline-text {
 .description-owner {
     grid-row: 2;
     grid-column: 1 / span 1;
-    margin-top: 4.9em;
     margin-left: 2.5em;
     font-size: 3em;
 }
@@ -427,6 +419,21 @@ h2.outline-text {
     font-size: 1.75em;
     padding: 15px;
     text-align: center;
+}
+
+.button-box {
+    display: grid;
+    grid-template-columns: 33% 12% 10% 12% 33%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.button-anchor1 {
+    grid-column: 2;
+}
+
+.button-anchor2 {
+    grid-column: 4;
 }
 
 #care-guide-container {
