@@ -145,7 +145,7 @@ h2.outline-text {
 }
 
 .grid-container {
-    margin-top: 3vw;
+    margin-top: 6vh;
     display: grid;
     grid-template-columns: 45% 55%;
     grid-gap: 0.625em;
@@ -607,7 +607,7 @@ form#contactForm button:hover {
 
 
 .footer {
-    margin-top: 1vw;
+    margin-top: 5vh;
     width: 100%;
     bottom: 0px;
     left: 0px;
@@ -674,6 +674,7 @@ form#contactForm button:hover {
 .emergency_box {
     float: left;
     width: 100%;
+    margin-top: 4em;
 }
 
 .emergency_header {
@@ -682,8 +683,9 @@ form#contactForm button:hover {
     width: 100%;
     color: var(--text);
     text-align: center;
-    margin-top: 1vw;
+    margin-top: 2vh;
     font-weight: 600;
+    font-family: "apertura", sans-serif;
 }
 
 .emergency_text {
@@ -693,8 +695,8 @@ form#contactForm button:hover {
     color: var(--text);
     text-align: center;
     line-height: 3.9vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 6vh;
 }
 
 .emergency_grid {
@@ -722,12 +724,12 @@ form#contactForm button:hover {
 }
 
 .footer {
-    margin-top: 2vw;
+    margin-top: 5vh;
     width: 100%;
     bottom: 0px;
     left: 0px;
     background-color: var(--footer);
-    padding: 4vw 2vw 3vw 2vw;
+    padding: 5vh 2vw 4vh 2vw;
     overflow: auto;
 }
 
@@ -752,7 +754,7 @@ form#contactForm button:hover {
 .footer-header {
     font-size: 5rem;
     font-weight: 700;
-    padding-bottom: 2vw;
+    padding-bottom: 2vh;
 }
 
 .footer-subheader {
@@ -773,7 +775,7 @@ form#contactForm button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3vw;
+    padding-top: 5vh;
 }
 
 .footer-nav-item {
