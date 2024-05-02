@@ -75,11 +75,11 @@ p {
     width: fit-content;
     padding: 0.3em 1.3em;
     background-color: var(--primary);
-    border-radius: 7px;
+    border-radius: 1em;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    transform: translate(-0px, -5px);
-    box-shadow: 0 5px 5px #cfa4a1;
+    transform: translate(-0em, -0.5em);
+    box-shadow: 0 0.5em 0.5em #cfa4a1;
 }
 
 .button:hover {
@@ -119,17 +119,17 @@ h1.outline-text {
     font-family: "apertura", sans-serif;
     color: var(--text);
     font-weight: bold;
-    -webkit-text-stroke: 2px var(--footer);
+    -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
-    font-size: 9em;
+    font-size: 10em;
 }
 
 h2.outline-text {
     font-family: "apertura", sans-serif;
     color: var(--text);
     font-weight: bold;
-    font-size: 5em;
-    -webkit-text-stroke: 2px var(--footer);
+    font-size: 6em;
+    -webkit-text-stroke: 0.04em var(--footer);
     text-align: center;
 }
 
@@ -433,16 +433,16 @@ h2.outline-text {
 }
 
 .care-guide-item {
-    padding: 10px;
+    padding: 2em;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 1em 6em 0px;
     background-color: var(--bckgrnd);
-    margin: 1vh 0;
+    margin: 0.5vw 0;
 }
 
 .top-care-guides {
-    margin-top: 7vh;
+    margin-top: 3vw;
     display: flex;
     justify-content: space-between;
 }
@@ -463,7 +463,7 @@ h2.outline-text {
     font-size: 1.6em;
     width: fit-content;
     background-color: var(--primary);
-    border-radius: 7px;
+    border-radius: 1em;
     border: 2px solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: none;
@@ -490,7 +490,7 @@ h2.outline-text {
     display: inline-flex;
     width: fit-content;
     background-color: var(--primary);
-    border-radius: 7px;
+    border-radius: 1em;
     border: 2px solid var(--secondary);
     transition: background-color 0.3s ease;
     cursor: pointer;
