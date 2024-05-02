@@ -745,6 +745,7 @@ form#contactForm button:hover {
 .emergency_image img {
     height: 30vw;
     width: 40vw;
+    border: 2px solid var(--secondary);
 }
 
 .footer {
