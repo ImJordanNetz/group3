@@ -474,9 +474,9 @@ h2.outline-text {
     padding: 1em;
     font-size: 1.6em;
     width: fit-content;
-    background-color: var(--primary);
+    background-color: white;
     border-radius: 1em;
-    border: 0.04em solid var(--secondary);
+    border: 0.1em solid var(--secondary);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: none;
     outline: none;
@@ -487,10 +487,8 @@ h2.outline-text {
 }
 
 #filterInput:focus {
-    border-color: var(--text);
-    /* Change border color on focus for better visibility */
-    box-shadow: 0 0 8px var(--highlight);
-    /* Soft glow effect on focus */
+    border-color: var(--secondary);
+
 }
 
 .top-care-guides-side .care-guide-button {
