@@ -624,6 +624,30 @@ h2.outline-text {
     margin-bottom: 1vh;
 }
 
+.emergency_grid {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    float: left;
+    width: 100%;
+    margin-bottom: 4vw;
+}
+
+.afterhours {
+    grid-column: 1;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.emergency_image {
+    grid-column: 3;
+    text-align: center;
+} 
+
+.emergency_image img {
+    height: 30vw;
+    width: 40vw;
+}
+
 .footer {
     margin-top: 5vh;
     width: 100%;
