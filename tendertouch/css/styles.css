@@ -241,9 +241,9 @@ h2.outline-text {
 
 .sub-title-staff {
     font-family: "apertura", sans-serif;
-    margin-top: 30px;
+    margin-top: 1.2em;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 1.1em;
     color: var(--text);
     -webkit-text-stroke: 1px var(--footer);
     text-align: center;
@@ -281,9 +281,9 @@ h2.outline-text {
 }
 
 .quote {
-    height: 50px;
-    width: 50px;
-    margin-left: 10px;
+    height: 3.125em;
+    width: 3.125em;
+    margin-left: 0.625em;
 }
 
 .schedule-home {
@@ -321,7 +321,7 @@ h2.outline-text {
     cursor: pointer;
     margin: 0;
     position: absolute;
-    top: 39%;
+    top: 40%;
     left: 34%;
 }
 
@@ -334,7 +334,7 @@ h2.outline-text {
     cursor: pointer;
     margin: 0;
     position: absolute;
-    top: 39%;
+    top: 40%;
     left: 53%;
     font-family: "apertura", sans-serif;
 }
@@ -397,34 +397,34 @@ h2.outline-text {
 .dr {
     grid-row: 2;
     grid-column: 2 / span 1;
-    margin-top: 95px;
-    margin-left: 40px;
+    margin-top: 15em;
+    margin-left: 7em;
 }
 
 .owner-pic {
-    height: 350px;
-    width: 500px;
+    height: 55em;
+    width: 75em;
 }
 
 .description-owner {
     grid-row: 2;
     grid-column: 1 / span 1;
-    margin-top: 80px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-top: 4.9em;
+    margin-left: 2.5em;
+    font-size: 3em;
 }
 
 .line-separator {
     background-color: lightgrey;
-    height: 2px;
+    height: 0.3em;
     width: 90%;
     text-align: center;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin-top: 7em;
+    margin-left: 11em;
 }
 
 .carreers {
-    font-size: 20px;
+    font-size: 1.75em;
     padding: 15px;
     text-align: center;
 }
@@ -516,14 +516,13 @@ h2.outline-text {
 .care-guide-item p {
     font-size: 1.7em;
     width: fit-content;
-    
 }
 
 #none-found {
     display: none;
 }
 
-#none-found h2{
+#none-found h2 {
     font-size: 3em;
 }
 
