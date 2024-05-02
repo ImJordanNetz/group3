@@ -554,7 +554,7 @@ h2.outline-text {
 
 .contact-us-wrapper p{
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .contact-us-info-wrapper {
@@ -564,37 +564,38 @@ h2.outline-text {
 }
 
 .contact-us-info-wrapper p{
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #contactForm {
-    display: grid; /* Using grid layout for form elements */
-    grid-template-columns: 1fr; /* One column layout */
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 #contactForm label {
-    display: block; /* Makes label block-level for better control */
-    margin-bottom: 5px; /* Space below each label */
-    font-weight: bold; /* Makes text bold */
+    font-size: 2.5em;
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold;
 }
 
 #contactForm input,
 #contactForm textarea {
-    width: 100%; /* Full width of the form */
-    padding: 8px; /* Padding inside the input fields */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 5px; /* Rounded corners on inputs and textarea */
-    box-sizing: border-box; /* Box sizing to include padding in width */
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
 }
 
-form#contactForm button {
+#contactForm button {
     font-size: 2em;
-    background-color: var(--primary); /* Primary color for button */
+    background-color: var(--primary); 
     color: rgb(0, 0, 0);
-    padding: 10px 15px; /* Padding inside the button */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners for the button */
-    cursor: pointer; /* Cursor indicates clickable */
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
     transform: translate(-0px, -5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 5px #cfa4a1;
@@ -836,6 +837,34 @@ form#contactForm button:hover {
     .dr {
         grid-row: 2;
         grid-column: 1/span 2;
+        text-align: center;
+    }
+
+    .contact-us-wrapper{
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-wrapper h2{
+        font-size: 7em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-wrapper p{
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contactForm button{
+        margin: 2vh 0;
+    }
+
+    .contact-us-info-wrapper{
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 }
