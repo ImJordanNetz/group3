@@ -6,9 +6,8 @@ body {
     height: 100vh;
 }
 
+
 /* Box shadows in this file are coped from: https://getcssscan.com/css-box-shadow-examples */
-
-
 
 @import url("https://use.typekit.net/xjj7uou.css");
  :root {
@@ -167,6 +166,7 @@ h2.outline-text {
     width: 100%;
     height: 60em;
 }
+
 
 /* https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
 
@@ -554,7 +554,6 @@ h2.outline-text {
 
 #none-found {
     display: none;
-    
 }
 
 #none-found h2 {
@@ -918,7 +917,7 @@ form#contactForm button:hover {
         font-size: 5em;
     }
     .sub-title-staff1 {
-        font-size: 1.53em;
+        font-size: 3em;
     }
     .home_button_box {
         display: grid;
@@ -937,5 +936,13 @@ form#contactForm button:hover {
     }
     .contact-text {
         text-align: center;
+    }
+    .staff-text {
+        font-size: 2em;
+        font-family: "apertura", sans-serif;
+    }
+    .carreers {
+        font-size: 2.3em;
+        font-family: "apertura", sans-serif;
     }
 }
