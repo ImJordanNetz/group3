@@ -120,14 +120,14 @@ h1.outline-text {
     font-weight: bold;
     -webkit-text-stroke: 2px var(--footer);
     text-align: center;
-    font-size: 7em;
+    font-size: 9em;
 }
 
 h2.outline-text {
     font-family: "apertura", sans-serif;
     color: var(--text);
     font-weight: bold;
-    font-size: 4em;
+    font-size: 5em;
     -webkit-text-stroke: 2px var(--footer);
     text-align: center;
 }
@@ -144,7 +144,7 @@ h2.outline-text {
 .grid-container {
     margin-top: 6vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
     grid-gap: 10px;
     place-items: center;
 }
@@ -173,9 +173,8 @@ h2.outline-text {
     grid-row: 1;
     grid-column: 2/span1;
     font-size: 2.5em;
-    padding: 10px;
-    padding-right: 7em;
     color: text;
+    margin-right: 3em;
 }
 
 .welcome-text-container {
@@ -319,7 +318,7 @@ h2.outline-text {
     cursor: pointer;
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 34%;
 }
 
@@ -332,7 +331,7 @@ h2.outline-text {
     cursor: pointer;
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 53%;
     font-family: "apertura", sans-serif;
 }
