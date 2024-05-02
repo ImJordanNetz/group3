@@ -605,6 +605,7 @@ h2.outline-text {
 }
 
 #contactForm button {
+    margin: 2vh 0px;
     font-size: 2em;
     background-color: var(--primary);
     color: rgb(0, 0, 0);
