@@ -175,13 +175,21 @@ h2.outline-text {
 .welcome {
     grid-row: 1;
     grid-column: 2/span1;
-    font-size: 2.5em;
     color: text;
     margin-right: 3em;
 }
 
 .welcome-text-container {
     text-align: center;
+    font-size: 2.8em;
+}
+
+.home_button_box {
+    display: grid;
+    grid-template-columns: 23% 22% 10% 22% 23%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    align-items: center;
 }
 
 .grid-container2 {
@@ -891,5 +899,11 @@ form#contactForm button:hover {
     }
     .sub-title-staff1 {
         font-size: 1.53em;
+    }
+    .home_button_box {
+        display: grid;
+        grid-template-columns: 33% 12% 10% 12% 33%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
 }
