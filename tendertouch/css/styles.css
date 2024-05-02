@@ -66,6 +66,7 @@ p {
     border: 2px solid var(--secondary);
     border-radius: 1em;
     object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.6) 0em 0.438em 1.813em 0em;
 }
 
 .active .underline {
@@ -641,6 +642,7 @@ form#contactForm button:hover {
     padding: 2%;
     grid-template-columns: 50% 50%;
     place-items: center;
+    
 }
 
 .service-right {
@@ -655,6 +657,8 @@ form#contactForm button:hover {
     padding-left: 10%;
     padding-right: 5%;
     text-align: right;
+    
+    
 }
 
 .service-left .service-text-container {
