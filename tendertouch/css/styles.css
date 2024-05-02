@@ -37,6 +37,10 @@ p {
     font-style: italic;
 }
 
+.center {
+    text-align: center;
+}
+
 .underline {
     width: 0;
     height: 0.3vh;
@@ -59,7 +63,6 @@ p {
     border: 2px solid var(--secondary);
     border-radius: 1em;
 }
-
 
 .active .underline {
     background-color: var(--secondary);
@@ -152,7 +155,6 @@ h2.outline-text {
     grid-column: 1/span 1;
     width: 70em;
     box-shadow: rgba(100, 100, 111, 0.45) 0px 7px 29px 0px;
-    
 }
 
 .carousel-item {
@@ -168,8 +170,6 @@ h2.outline-text {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-
-
 .welcome {
     grid-row: 1;
     grid-column: 2/span1;
@@ -179,7 +179,7 @@ h2.outline-text {
     color: text;
 }
 
-.welcome-text-container{
+.welcome-text-container {
     text-align: center;
 }
 
@@ -224,7 +224,7 @@ h2.outline-text {
     background-color: var(--bckgrnd);
 }
 
-.testimonial p{
+.testimonial p {
     text-align: center;
 }
 
@@ -412,6 +412,7 @@ h2.outline-text {
 .carreers {
     font-size: 20px;
     padding: 15px;
+    text-align: center;
 }
 
 .footer {
@@ -456,22 +457,20 @@ h2.outline-text {
     padding: 2% 3%;
     grid-template-columns: 50% 50%;
     place-items: center;
-
 }
 
-.service-right .service-text-container{
+.service-right .service-text-container {
     padding-left: 20%;
     text-align: right;
 }
 
-.service-left .service-text-container{
+.service-left .service-text-container {
     padding-right: 20%;
     text-align: left;
 }
 
 .service-text-container p {
     font-size: 2em;
-
 }
 
 .service-text-container h2 {
